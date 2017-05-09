@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vuforia'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Ar technology of cmall'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'momo605654602@gmail.com' => 'moyunmo@hotmail.com' }
-  s.source           = { :git => 'https://github.com/momo605654602@gmail.com/Vuforia.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/moyunmo/Vuforia.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
