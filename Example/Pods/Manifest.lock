@@ -1,5 +1,5 @@
 PODS:
-  - Vuforia (0.1.0)
+  - Vuforia (0.1.2)
 
 DEPENDENCIES:
   - Vuforia (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Vuforia: 607b36127b9d15cd68f2616955293756388ca2d6
+  Vuforia: f0cbf3711f33cdc6d10ebea68b7cbe1e56e186d8
 
 PODFILE CHECKSUM: eda68aff234f3924f1ef84c9dced63a2c756e561
 

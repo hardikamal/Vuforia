@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		771FB5321EC17024003B8612 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FB5311EC17024003B8612 /* libstdc++.6.0.9.tbd */; };
-		771FB5351EC17123003B8612 /* CMTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 771FB5341EC17123003B8612 /* CMTest.mm */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EE75086CDC8DF2F88FFE019D /* Pods_Vuforia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D310DB321C273669ECBD9849 /* Pods_Vuforia_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -63,8 +62,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771FB5311EC17024003B8612 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		771FB5331EC17123003B8612 /* CMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTest.h; sourceTree = "<group>"; };
-		771FB5341EC17123003B8612 /* CMTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMTest.mm; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2659535309368F4F4192C13 /* Pods-Vuforia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vuforia_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vuforia_Tests/Pods-Vuforia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A60BD06A8D2D126CFF3E825C /* Pods_Vuforia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vuforia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,8 +141,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CMViewController.h */,
 				6003F5A6195388D20070C39A /* CMViewController.m */,
-				771FB5331EC17123003B8612 /* CMTest.h */,
-				771FB5341EC17123003B8612 /* CMTest.mm */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -409,7 +404,6 @@
 				6003F59E195388D20070C39A /* CMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				771FB5351EC17123003B8612 /* CMTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

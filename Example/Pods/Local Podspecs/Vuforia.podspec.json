@@ -1,8 +1,8 @@
 {
   "name": "Vuforia",
-  "version": "0.1.0",
-  "summary": "A short description of Vuforia.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.2",
+  "summary": "Ar technology of cmall",
+  "description": "Cmall CmallCmallCmallCmallCmallCmallCmallCmallCmall",
   "homepage": "https://github.com/momo605654602@gmail.com/Vuforia",
   "license": {
     "type": "MIT",
@@ -12,12 +12,12 @@
     "momo605654602@gmail.com": "moyunmo@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/momo605654602@gmail.com/Vuforia.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/moyunmo/Vuforia.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "Vuforia/Vuforia/*",
-  "vendored_libraries": "iSmartPhoto/Binary/*.a"
+  "vendored_libraries": "Vuforia/Binary/*.a"
 }

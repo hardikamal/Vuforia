@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vuforia'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Ar technology of cmall'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Vuforia/Vuforia/*'
 
-  s.vendored_libraries = 'iSmartPhoto/Binary/*.a'
+  s.vendored_libraries = 'Vuforia/Binary/*.a'
   
   # s.resource_bundles = {
   #   'Vuforia' => ['Vuforia/Assets/*.png']
