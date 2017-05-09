@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		041FC665F06B361FB43E7739 /* Pods_Vuforia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60BD06A8D2D126CFF3E825C /* Pods_Vuforia_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -22,7 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		771FB5321EC17024003B8612 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 771FB5311EC17024003B8612 /* libstdc++.6.0.9.tbd */; };
 		771FB5381EC19104003B8612 /* CMTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 771FB5371EC19104003B8612 /* CMTest.mm */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		EE75086CDC8DF2F88FFE019D /* Pods_Vuforia_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D310DB321C273669ECBD9849 /* Pods_Vuforia_Tests.framework */; };
@@ -79,8 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771FB5321EC17024003B8612 /* libstdc++.6.0.9.tbd in Frameworks */,
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				041FC665F06B361FB43E7739 /* Pods_Vuforia_Example.framework in Frameworks */,

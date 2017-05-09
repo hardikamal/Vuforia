@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vuforia'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'Ar technology of cmall'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,11 @@ Pod::Spec.new do |s|
   #   'Vuforia' => ['Vuforia/Assets/*.png']
   # }
 
-  s.public_header_files = 'Vuforia/Vuforia/*.h'
+  s.library = 'c++'
+  s.xcconfig = {
+       'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+       'CLANG_CXX_LIBRARY' => 'libc++'
+  }
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
