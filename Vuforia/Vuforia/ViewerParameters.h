@@ -15,9 +15,9 @@ countries.
 #ifndef _VUFORIA_VIEWER_PARAMETERS_H_
 #define _VUFORIA_VIEWER_PARAMETERS_H_
 
-#include <System.h>
-#include <Vuforia.h>
-#include <Vectors.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/Vectors.h>
 
 namespace Vuforia
 {

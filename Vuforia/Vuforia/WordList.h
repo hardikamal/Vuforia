@@ -15,9 +15,9 @@ countries.
 #ifndef _VUFORIA_WORD_LIST_H_
 #define _VUFORIA_WORD_LIST_H_
 
-#include <System.h>
-#include <NonCopyable.h>
-#include <Vuforia.h>
+#include <Vuforia/System.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia
 {

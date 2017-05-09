@@ -16,9 +16,9 @@ countries.
 #ifndef _VUFORIA_HANDHELD_TRANSFORM_MODEL_H_
 #define _VUFORIA_HANDHELD_TRANSFORM_MODEL_H_
 
-#include <Vectors.h>
-#include <TransformModel.h>
-#include <System.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/TransformModel.h>
+#include <Vuforia/System.h>
 
 namespace Vuforia
 {

@@ -16,7 +16,7 @@ countries.
 #ifndef _VUFORIA_ROTATIONAL_DEVICE_TRACKER_H_
 #define _VUFORIA_ROTATIONAL_DEVICE_TRACKER_H_
 
-#include <DeviceTracker.h>
+#include <Vuforia/DeviceTracker.h>
 
 namespace Vuforia
 {

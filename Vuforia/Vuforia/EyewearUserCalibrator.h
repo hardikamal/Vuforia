@@ -16,10 +16,10 @@ countries.
 #define _VUFORIA_EYEWEARUSERCALIBRATOR_H_
 
 // Include files
-#include <NonCopyable.h>
-#include <Vuforia.h>
-#include <EyeID.h>
-#include <EyewearCalibrationReading.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/EyeID.h>
+#include <Vuforia/EyewearCalibrationReading.h>
 
 namespace Vuforia
 {

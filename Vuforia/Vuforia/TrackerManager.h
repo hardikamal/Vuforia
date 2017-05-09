@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_TRACKER_MANAGER_H_
 
 // Include files
-#include <Tracker.h>
-#include <NonCopyable.h>
+#include <Vuforia/Tracker.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

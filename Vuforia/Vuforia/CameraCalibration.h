@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_CAMERACALIBRATION_H_
 
 // Include files
-#include <Vectors.h>
-#include <NonCopyable.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

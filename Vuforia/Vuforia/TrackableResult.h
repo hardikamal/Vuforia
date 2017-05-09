@@ -16,11 +16,11 @@ countries.
 #define _VUFORIA_TRACKABLERESULT_H_
 
 // Include files
-#include <NonCopyable.h>
-#include <Matrices.h>
-#include <System.h>
-#include <Trackable.h>
-#include <Vuforia.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia
 {

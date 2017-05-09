@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_STATE_H_
 
 // Include files
-#include <System.h>
-#include <Frame.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Frame.h>
 
 namespace Vuforia
 {

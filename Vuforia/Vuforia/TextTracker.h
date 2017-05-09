@@ -16,10 +16,10 @@ countries.
 #define _VUFORIA_TEXT_TRACKER_H_
 
 // Include files
-#include <Tracker.h>
-#include <Vectors.h>
-#include <WordList.h>
-#include <Rectangle.h>
+#include <Vuforia/Tracker.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/WordList.h>
+#include <Vuforia/Rectangle.h>
 
 namespace Vuforia
 {

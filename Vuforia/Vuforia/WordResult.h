@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_WORDRESULT_H_
 
 // Include files
-#include <TrackableResult.h>
-#include <Word.h>
-#include <Obb2D.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/Word.h>
+#include <Vuforia/Obb2D.h>
 
 namespace Vuforia
 {

@@ -15,7 +15,7 @@ countries.
 #ifndef _VUFORIA_CUSTOM_VIEWER_PARAMETERS_H_
 #define _VUFORIA_CUSTOM_VIEWER_PARAMETERS_H_
 
-#include <ViewerParameters.h>
+#include <Vuforia/ViewerParameters.h>
 
 namespace Vuforia
 {

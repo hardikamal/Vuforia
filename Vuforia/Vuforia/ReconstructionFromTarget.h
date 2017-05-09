@@ -15,12 +15,12 @@ countries.
 #ifndef _VUFORIA_RECONSTRUCTIONFROMTARGET_H_
 #define _VUFORIA_RECONSTRUCTIONFROMTARGET_H_
 
-#include <Vuforia.h>
-#include <Reconstruction.h>
-#include <Box3D.h>
-#include <Trackable.h>
-#include <Matrices.h>
-#include <Type.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/Reconstruction.h>
+#include <Vuforia/Box3D.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/Type.h>
 
 namespace Vuforia
 {

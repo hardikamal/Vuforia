@@ -16,7 +16,7 @@ countries.
 #define _VUFORIA_VIDEOBACKGROUNDCONFIG_H_
 
 // Include files
-#include <Vectors.h>
+#include <Vuforia/Vectors.h>
 
 namespace Vuforia
 {

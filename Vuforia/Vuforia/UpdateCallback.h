@@ -16,7 +16,7 @@ countries.
 #define _VUFORIA_UPDATECALLBACK_H_
 
 // Include files
-#include <System.h>
+#include <Vuforia/System.h>
 
 namespace Vuforia
 {

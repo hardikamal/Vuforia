@@ -16,9 +16,9 @@ countries.
 #ifndef _VUFORIA_TRANSFORM_MODEL_H_
 #define _VUFORIA_TRANSFORM_MODEL_H_
 
-#include <NonCopyable.h>
-#include <Type.h>
-#include <System.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Type.h>
+#include <Vuforia/System.h>
 
 namespace Vuforia
 {

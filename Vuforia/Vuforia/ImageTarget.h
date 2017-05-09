@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_IMAGETARGET_H_
 
 // Include files
-#include <Trackable.h>
-#include <ObjectTarget.h>
-#include <Vectors.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/ObjectTarget.h>
+#include <Vuforia/Vectors.h>
 
 
 namespace Vuforia

@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_CAMERADEVICE_H_
 
 // Include files
-#include <NonCopyable.h>
-#include <VideoMode.h>
-#include <CameraCalibration.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/VideoMode.h>
+#include <Vuforia/CameraCalibration.h>
 
 
 namespace Vuforia

@@ -18,7 +18,7 @@ countries.
 // Include files
 #if defined (__arm__) || (__arm64__)
 #include <Metal/Metal.h>
-#include <Renderer.h>
+#include <Vuforia/Renderer.h>
 
 namespace Vuforia
 {

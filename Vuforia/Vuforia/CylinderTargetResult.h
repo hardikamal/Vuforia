@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_CYLINDERTARGETRESULT_H_
 
 // Include files
-#include <ObjectTargetResult.h>
-#include <CylinderTarget.h>
+#include <Vuforia/ObjectTargetResult.h>
+#include <Vuforia/CylinderTarget.h>
 
 namespace Vuforia
 {

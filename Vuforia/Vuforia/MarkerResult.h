@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_MARKERRESULT_H_
 
 // Include files
-#include <TrackableResult.h>
-#include <Marker.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/Marker.h>
 
 namespace Vuforia
 {

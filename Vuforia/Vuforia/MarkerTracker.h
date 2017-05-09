@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_MARKER_TRACKER_H_
 
 // Include files
-#include <Tracker.h>
-#include <Vectors.h>
+#include <Vuforia/Tracker.h>
+#include <Vuforia/Vectors.h>
 
 namespace Vuforia
 {

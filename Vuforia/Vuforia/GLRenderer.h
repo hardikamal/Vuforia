@@ -16,7 +16,7 @@ countries.
 #define _VUFORIA_GLRENDERER_H_
 
 // Include files
-#include <Renderer.h>
+#include <Vuforia/Renderer.h>
 
 namespace Vuforia 
 {

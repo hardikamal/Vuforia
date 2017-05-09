@@ -16,10 +16,10 @@ countries.
 #define _VUFORIA_SMARTTERRAIN_BUILDER_H_
 
 // Include files
-#include <Tracker.h>
-#include <Trackable.h>
-#include <Vectors.h>
-#include <Reconstruction.h>
+#include <Vuforia/Tracker.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/Reconstruction.h>
 
 
 namespace Vuforia

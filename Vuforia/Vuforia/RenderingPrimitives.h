@@ -16,12 +16,12 @@ Header file for RenderingPrimitives class.
 #ifndef _VUFORIA_RENDERING_PRIMITIVES_H_
 #define _VUFORIA_RENDERING_PRIMITIVES_H_
 
-#include <View.h>
-#include <ViewList.h>
-#include <Mesh.h>
-#include <Matrices.h>
-#include <Vectors.h>
-#include <ViewerParameters.h>
+#include <Vuforia/View.h>
+#include <Vuforia/ViewList.h>
+#include <Vuforia/Mesh.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/ViewerParameters.h>
 
 namespace Vuforia
 {

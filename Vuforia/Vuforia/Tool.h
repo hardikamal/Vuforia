@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_TOOL_H_
 
 // Include files
-#include <System.h>
-#include <Matrices.h>
-#include <Vectors.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/Vectors.h>
 
 namespace Vuforia
 {

@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_SURFACERESULT_H_
 
 // Include files
-#include <TrackableResult.h>
-#include <Surface.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/Surface.h>
 
 namespace Vuforia
 {

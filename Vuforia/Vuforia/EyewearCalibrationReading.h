@@ -15,7 +15,7 @@ countries.
 #ifndef _VUFORIA_EYEWEARCALIBRATIONREADING_H_
 #define _VUFORIA_EYEWEARCALIBRATIONREADING_H_
 
-#include <Matrices.h>
+#include <Vuforia/Matrices.h>
 
 namespace Vuforia
 {

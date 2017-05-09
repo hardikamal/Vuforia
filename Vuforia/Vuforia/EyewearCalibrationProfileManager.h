@@ -16,9 +16,9 @@ countries.
 #ifndef _VUFORIA_EYEWEAR_CALIBRATION_PROFILE_MANAGER_H_
 #define _VUFORIA_EYEWEAR_CALIBRATION_PROFILE_MANAGER_H_
 
-#include <NonCopyable.h>
-#include <Matrices.h>
-#include <EyeID.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/EyeID.h>
 
 namespace Vuforia
 {

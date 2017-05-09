@@ -16,8 +16,8 @@ countries.
 #ifndef _VUFORIA_DEVICE_TRACKER_H_
 #define _VUFORIA_DEVICE_TRACKER_H_
 
-#include <Tracker.h>
-#include <Matrices.h>
+#include <Vuforia/Tracker.h>
+#include <Vuforia/Matrices.h>
 
 namespace Vuforia
 {

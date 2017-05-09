@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_IMAGE_H_
 
 // Include files
-#include <Vuforia.h>
-#include <NonCopyable.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

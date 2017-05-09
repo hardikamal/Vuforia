@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_TARGET_FINDER_H_
 
 // Include files
-#include <System.h>
-#include <TargetSearchResult.h>
-#include <NonCopyable.h>
+#include <Vuforia/System.h>
+#include <Vuforia/TargetSearchResult.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

@@ -15,11 +15,11 @@ countries.
 #ifndef _VUFORIA_SMARTTERRAINTRACKER_H_
 #define _VUFORIA_SMARTTERRAINTRACKER_H_
 
-#include <Vuforia.h>
-#include <NonCopyable.h>
-#include <Trackable.h>
-#include <SmartTerrainBuilder.h>
-#include <SmartTerrainTrackable.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/SmartTerrainBuilder.h>
+#include <Vuforia/SmartTerrainTrackable.h>
 
 namespace Vuforia
 {

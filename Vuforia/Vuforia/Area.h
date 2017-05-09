@@ -16,7 +16,7 @@ countries.
 #ifndef _VUFORIA_AREA_H_
 #define _VUFORIA_AREA_H_
 
-#include <Vuforia.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia
 {

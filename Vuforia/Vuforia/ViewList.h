@@ -14,8 +14,8 @@ Header file for ViewList class.
 #ifndef _VUFORIA_VIEWLIST_H_
 #define _VUFORIA_VIEWLIST_H_
 
-#include <NonCopyable.h>
-#include <View.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/View.h>
 
 namespace Vuforia
 {

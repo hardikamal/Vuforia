@@ -15,8 +15,8 @@ countries.
 #ifndef _VUFORIA_MESH_H_
 #define _VUFORIA_MESH_H_
 
-#include <System.h>
-#include <Vectors.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Vectors.h>
 
 
 namespace Vuforia

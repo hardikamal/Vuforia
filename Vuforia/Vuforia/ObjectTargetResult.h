@@ -18,8 +18,8 @@ countries.
 #define _VUFORIA_OBJECTTARGETRESULT_H_
 
 // Include files
-#include <TrackableResult.h>
-#include <ObjectTarget.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/ObjectTarget.h>
 
 namespace Vuforia
 {

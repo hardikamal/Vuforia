@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_TARGET_SEARCH_RESULT_H_
 
 // Include files
-#include <System.h>
-#include <NonCopyable.h>
+#include <Vuforia/System.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

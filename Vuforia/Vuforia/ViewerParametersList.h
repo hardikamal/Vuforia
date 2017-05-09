@@ -15,9 +15,9 @@ Header file for ViewerParametersList class.
 #ifndef _VUFORIA_VIEWER_PARAMETERS_LIST_H_
 #define _VUFORIA_VIEWER_PARAMETERS_LIST_H_
 
-#include <System.h>
-#include <NonCopyable.h>
-#include <ViewerParameters.h>
+#include <Vuforia/System.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/ViewerParameters.h>
 
 namespace Vuforia
 {

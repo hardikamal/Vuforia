@@ -15,11 +15,11 @@ Header file for EyewearDevice class.
 #define _VUFORIA_EYEWEAR_DEVICE_H_
 
 // parent classes
-#include <Device.h>
+#include <Vuforia/Device.h>
 
 // other dependencies
-#include <EyewearCalibrationProfileManager.h>
-#include <EyewearUserCalibrator.h>
+#include <Vuforia/EyewearCalibrationProfileManager.h>
+#include <Vuforia/EyewearUserCalibrator.h>
 
 namespace Vuforia
 {

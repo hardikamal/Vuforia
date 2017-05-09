@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_IMAGETARGETRESULT_H_
 
 // Include files
-#include <ObjectTargetResult.h>
-#include <ImageTarget.h>
+#include <Vuforia/ObjectTargetResult.h>
+#include <Vuforia/ImageTarget.h>
 
 namespace Vuforia
 {

@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_PROP_H_
 
 // Include files
-#include <SmartTerrainTrackable.h>
-#include <Vectors.h>
+#include <Vuforia/SmartTerrainTrackable.h>
+#include <Vuforia/Vectors.h>
 
 namespace Vuforia
 {

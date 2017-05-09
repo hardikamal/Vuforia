@@ -16,13 +16,13 @@ Header file for Device class.
 #define _VUFORIA_DEVICE_H_
 
 // parent classes
-#include <NonCopyable.h>
+#include <Vuforia/NonCopyable.h>
 
 // other dependencies
-#include <Type.h>
-#include <ViewerParameters.h>
-#include <ViewerParametersList.h>
-#include <RenderingPrimitives.h>
+#include <Vuforia/Type.h>
+#include <Vuforia/ViewerParameters.h>
+#include <Vuforia/ViewerParametersList.h>
+#include <Vuforia/RenderingPrimitives.h>
 
 namespace Vuforia
 {

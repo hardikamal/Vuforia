@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_VIDEOBACKGROUNDTEXTUREINFO_H_
 
 // Include files
-#include <Vectors.h>
-#include <Vuforia.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia
 {

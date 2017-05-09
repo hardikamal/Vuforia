@@ -15,8 +15,8 @@ countries.
 #ifndef _VUFORIA_DEVICE_TRACKABLE_RESULT_H_
 #define _VUFORIA_DEVICE_TRACKABLE_RESULT_H_
 
-#include <TrackableResult.h>
-#include <DeviceTrackable.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/DeviceTrackable.h>
 
 namespace Vuforia
 {

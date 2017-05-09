@@ -16,11 +16,11 @@ countries.
 #define _VUFORIA_RENDERER_H_
 
 // Include files
-#include <Matrices.h>
-#include <Vectors.h>
-#include <State.h>
-#include <NonCopyable.h>
-#include <Vuforia.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/State.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia 
 {

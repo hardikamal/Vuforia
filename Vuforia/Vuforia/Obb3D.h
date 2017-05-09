@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_OBB3D_H_
 
 
-#include <Vuforia.h>
-#include <Vectors.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/Vectors.h>
 
 
 namespace Vuforia

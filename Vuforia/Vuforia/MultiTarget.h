@@ -16,10 +16,10 @@ countries.
 #define _VUFORIA_MULTITARGET_H_
 
 // Include files
-#include <Trackable.h>
-#include <ObjectTarget.h>
-#include <Matrices.h>
-#include <Trackable.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/ObjectTarget.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/Trackable.h>
 
 namespace Vuforia
 {

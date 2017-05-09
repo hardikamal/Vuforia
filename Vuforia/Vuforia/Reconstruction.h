@@ -15,10 +15,10 @@ countries.
 #ifndef _VUFORIA_RECONSTRUCTION_H_
 #define _VUFORIA_RECONSTRUCTION_H_
 
-#include <Vuforia.h>
-#include <Type.h>
-#include <Rectangle.h>
-#include <NonCopyable.h>
+#include <Vuforia/Vuforia.h>
+#include <Vuforia/Type.h>
+#include <Vuforia/Rectangle.h>
+#include <Vuforia/NonCopyable.h>
 
 namespace Vuforia
 {

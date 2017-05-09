@@ -16,7 +16,7 @@ countries.
 #define _VUFORIA_SMARTTERRAINTRACKABLE_H_
 
 // Include files
-#include <Trackable.h>
+#include <Vuforia/Trackable.h>
 
 namespace Vuforia
 {

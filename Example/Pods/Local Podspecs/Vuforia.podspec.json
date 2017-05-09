@@ -1,23 +1,24 @@
 {
   "name": "Vuforia",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "Ar technology of cmall",
   "description": "Cmall CmallCmallCmallCmallCmallCmallCmallCmallCmall",
-  "homepage": "https://github.com/momo605654602@gmail.com/Vuforia",
+  "homepage": "https://github.com/moyunmo/Vuforia",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "momo605654602@gmail.com": "moyunmo@hotmail.com"
+    "Moyun": "moyunmo@hotmail.com"
   },
   "source": {
     "git": "https://github.com/moyunmo/Vuforia.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Vuforia/Vuforia/*",
-  "vendored_libraries": "Vuforia/Binary/*.a"
+  "source_files": "Vuforia/Vuforia/*.h",
+  "vendored_libraries": "Vuforia/Binary/*.a",
+  "public_header_files": "Vuforia/Vuforia/*.h"
 }

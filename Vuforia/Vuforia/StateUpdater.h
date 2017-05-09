@@ -16,9 +16,9 @@ Header file for StateUpdater class.
 #define _VUFORIA_STATE_UPDATER_H_
 
 // Include files
-#include <System.h>
-#include <NonCopyable.h>
-#include <State.h>
+#include <Vuforia/System.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/State.h>
 
 namespace Vuforia
 {

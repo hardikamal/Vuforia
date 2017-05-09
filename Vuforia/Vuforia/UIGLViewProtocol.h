@@ -10,13 +10,13 @@ countries.
     UIGLViewProtocol.h
  
 @brief
-    <b>iOS:<b> Header file for the iOS-specific UIGLViewProtocol protocol.
+    <b>iOS:</b> Header file for the iOS-specific UIGLViewProtocol protocol.
 ===============================================================================*/
 #ifndef _UIGLVIEWPROTOCOL_H_
 #define _UIGLVIEWPROTOCOL_H_
 
 /**
- <b>iOS:<b> This protocol applies only to the iOS platform.<BR>
+ <b>iOS:</b> This protocol applies only to the iOS platform.<BR>
  <BR>
  UIGLViewProtocol protocol.  The apps's UIView-derived class may conform to
  UIGLViewProtocol to allow Vuforia to call the renderFrameVuforia method when it
@@ -29,7 +29,7 @@ countries.
  is responsible for scheduling its own rendering.
  */
 @protocol UIGLViewProtocol
-/// <b>iOS:<b> Called by Vuforia to render the current frame
+/// <b>iOS:</b> Called by Vuforia to render the current frame
 - (void)renderFrameVuforia;
 @end
 

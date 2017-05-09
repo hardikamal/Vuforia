@@ -15,10 +15,10 @@ countries.
 #ifndef _VUFORIA_DEVICE_TRACKABLE_H_
 #define _VUFORIA_DEVICE_TRACKABLE_H_
 
-#include <Trackable.h>
-#include <Matrices.h>
-#include <EyeID.h>
-#include <TransformModel.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/Matrices.h>
+#include <Vuforia/EyeID.h>
+#include <Vuforia/TransformModel.h>
 
 namespace Vuforia
 {

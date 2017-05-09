@@ -16,11 +16,11 @@ countries.
 #define _VUFORIA_WORD_H_
 
 // Include files
-#include <System.h>
-#include <Trackable.h>
-#include <Vectors.h>
-#include <Rectangle.h>
-#include <Image.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Trackable.h>
+#include <Vuforia/Vectors.h>
+#include <Vuforia/Rectangle.h>
+#include <Vuforia/Image.h>
 
 namespace Vuforia
 {

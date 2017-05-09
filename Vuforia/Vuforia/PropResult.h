@@ -16,8 +16,8 @@ countries.
 #define _VUFORIA_PROPRESULT_H_
 
 // Include files
-#include <TrackableResult.h>
-#include <Prop.h>
+#include <Vuforia/TrackableResult.h>
+#include <Vuforia/Prop.h>
 
 namespace Vuforia
 {

@@ -15,7 +15,7 @@ countries.
 #ifndef _VUFORIA_RECTANGLE_H_
 #define _VUFORIA_RECTANGLE_H_
 
-#include <Area.h>
+#include <Vuforia/Area.h>
 
 namespace Vuforia
 {

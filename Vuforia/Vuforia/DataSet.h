@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_DATASET_H_
 
 // Include files
-#include <NonCopyable.h>
-#include <System.h>
-#include <Vuforia.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/System.h>
+#include <Vuforia/Vuforia.h>
 
 namespace Vuforia
 {

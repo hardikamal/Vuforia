@@ -16,9 +16,9 @@ countries.
 #define _VUFORIA_VIRTUALBUTTONRESULT_H_
 
 // Include files
-#include <NonCopyable.h>
-#include <System.h>
-#include <VirtualButton.h>
+#include <Vuforia/NonCopyable.h>
+#include <Vuforia/System.h>
+#include <Vuforia/VirtualButton.h>
 
 namespace Vuforia
 {
