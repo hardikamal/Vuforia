@@ -7,7 +7,7 @@
 //
 
 #import "CMTest.h"
-#import <System.h>
+#import <ImageTarget.h>
 
 @implementation CMTest
 

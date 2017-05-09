@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
   #   'Vuforia' => ['Vuforia/Assets/*.png']
   # }
 
+ s.private_header_files = 'Vuforia/Vuforia/*.h'
   s.library = 'c++'
   s.xcconfig = {
        'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',

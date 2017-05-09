@@ -1,1 +1,0 @@
-../../../../../Vuforia/Vuforia/Obb2D.h
