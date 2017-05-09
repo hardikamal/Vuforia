@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D37BEA0A8634B63D9F625C28CD9E7F /* Pods-Vuforia_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 632F87D9BB0F29EA92591C627677BF02 /* Pods-Vuforia_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7061140AC7BE188C8EBF128D10061325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7FCB04F5D5D2F7133EEB25F413A6A15D /* Pods-Vuforia_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EB52FFE7E9A0B52AABA137D2AF71D2 /* Pods-Vuforia_Tests-dummy.m */; };
+		8C2509EB6B2E355C1D8E39502A509F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		97FE5042EDFC39CB64B9DF70EBC2AF7C /* Pods-Vuforia_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA6F7EA8E33C2C1D361759ED6DC872E /* Pods-Vuforia_Example-dummy.m */; };
+		D88E2D2C9C3C9425F9208D1BC96298FA /* Pods-Vuforia_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4134822BCF6FBF5E5E5891148642FAD /* Pods-Vuforia_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0351945B9BBD46FA1D8870C9AC4E6E23 /* Surface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
+		04D7CB3537C19D9C27ED29F9CC642B0B /* DataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		07B2689E475BAF15942E3A2331B032BD /* MultiTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultiTargetResult.h; sourceTree = "<group>"; };
+		0B471D57270CFD1FCB0E0AC371E34587 /* MultiTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MultiTarget.h; sourceTree = "<group>"; };
+		0E1F1A2413007822AAFF94B0CAF08491 /* Pods-Vuforia_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vuforia_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1004592FF8D7367454F118D8E43BE43A /* Vuforia_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vuforia_iOS.h; sourceTree = "<group>"; };
+		10B358097CB3F27FE2FDAB60DCE4912A /* CameraCalibration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CameraCalibration.h; sourceTree = "<group>"; };
+		14DDCB83C6EB2A025BF58A85C75DD9A6 /* CylinderTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CylinderTarget.h; sourceTree = "<group>"; };
+		15E32F9516FE5AF0258CE7455A6C34E9 /* TargetSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TargetSearchResult.h; sourceTree = "<group>"; };
+		16113FE9444AD52B34D6774F89450F30 /* Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		163B3D6A01F12942B4D83DCB610E8C82 /* ViewerParametersList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewerParametersList.h; sourceTree = "<group>"; };
+		17EB52FFE7E9A0B52AABA137D2AF71D2 /* Pods-Vuforia_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vuforia_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C2C0823AF45C4C5002B86D6B9A6A73E /* Area.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		1C53B7001719418E801BCB69A5EC718E /* Word.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		201BF292E579ADDE294081D05057184C /* TargetFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TargetFinder.h; sourceTree = "<group>"; };
+		24383DFB4C602BB0493AB734ABCE916D /* Vectors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vectors.h; sourceTree = "<group>"; };
+		266CDEA07FBFABE8DE8A4A4CA92D1D0B /* VirtualButtonResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VirtualButtonResult.h; sourceTree = "<group>"; };
+		29129DA455CF73A1A02BE94DB5C9E2BE /* TrackableSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TrackableSource.h; sourceTree = "<group>"; };
+		2C78F61D290735369CD2A8F0F1908923 /* Pods-Vuforia_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Vuforia_Tests.modulemap"; sourceTree = "<group>"; };
+		2C88D04ABAA960AAF0AE5E1880E3FF96 /* WordList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
+		2CB7DC4A281C4DC9FEF09C90DF8B29E0 /* Pods-Vuforia_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vuforia_Example-frameworks.sh"; sourceTree = "<group>"; };
+		302013F065A0251780950F2EEBC5A312 /* Pods-Vuforia_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Vuforia_Example.modulemap"; sourceTree = "<group>"; };
+		311A6CFFB7BF1927407E41481D0CF0AA /* EyewearDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EyewearDevice.h; sourceTree = "<group>"; };
+		33B6C0F05FBEBE32622B25C2817BC6CE /* TrackableResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TrackableResult.h; sourceTree = "<group>"; };
+		34365460F432ED0C9C9027BD36D7B613 /* CameraDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CameraDevice.h; sourceTree = "<group>"; };
+		34545E972594AACED5E079B55D526D45 /* Pods_Vuforia_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vuforia_Tests.framework; path = "Pods-Vuforia_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35723BC955CEA328418818D7E735E80E /* Device.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		37B01CF60E73778E910BC7E86596D3C6 /* Reconstruction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reconstruction.h; sourceTree = "<group>"; };
+		3EAEC5504BE19CBE915AF73089A2BCC6 /* Pods-Vuforia_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vuforia_Example-resources.sh"; sourceTree = "<group>"; };
+		402C441F525D5BFBAC4AC1B73F7FC890 /* DeviceTrackableResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceTrackableResult.h; sourceTree = "<group>"; };
+		47A9C658A5AF73EB079F80F2E09986BC /* MarkerTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MarkerTracker.h; sourceTree = "<group>"; };
+		48135E4488BCA4119D1DD9BB1ABD7458 /* SmartTerrainBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartTerrainBuilder.h; sourceTree = "<group>"; };
+		4E475EAF708502941C07C7C2C6E3090A /* HandheldTransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HandheldTransformModel.h; sourceTree = "<group>"; };
+		4F5FCB6679738FA11FCED838FD828C8D /* ObjectTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjectTargetResult.h; sourceTree = "<group>"; };
+		5134D9F87DCCFCE0C7FAB107831E98BD /* ImageTargetBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageTargetBuilder.h; sourceTree = "<group>"; };
+		5181EEF174D2C740092B4E763083FFEB /* Pods-Vuforia_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vuforia_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		52459653C7A50ED8761E2639D426F54F /* SmartTerrainTrackable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartTerrainTrackable.h; sourceTree = "<group>"; };
+		53C5B4B9414E348D7522F6FF830A128A /* EyeID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EyeID.h; sourceTree = "<group>"; };
+		5549CD716E41C9F8D397A4A4F8D4FA65 /* View.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		568C0EC5B184156ED3A43C4C84F09ECC /* RenderingPrimitives.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RenderingPrimitives.h; sourceTree = "<group>"; };
+		56BEC846377BAD567D7E39179DBFB8D3 /* UIGLViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIGLViewProtocol.h; sourceTree = "<group>"; };
+		571D66B6F9FA638E3E6F6E9116208FAE /* DeviceTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceTracker.h; sourceTree = "<group>"; };
+		5A08F1E93D0049458FF7C904DDCB7E4E /* Vuforia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Vuforia.h; sourceTree = "<group>"; };
+		5C8185A08C7ED719C56528FDC297DAF5 /* TransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TransformModel.h; sourceTree = "<group>"; };
+		6157A14B97F80FA41E794C28F7C40FB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62116BCEE0F5B62B15D0D0F052808059 /* Matrices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Matrices.h; sourceTree = "<group>"; };
+		631242DB3F29ECD877B2332D694C10C6 /* Mesh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		632F87D9BB0F29EA92591C627677BF02 /* Pods-Vuforia_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vuforia_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6819947143F9A0466A475AB5BBE17FC9 /* SmartTerrainTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartTerrainTracker.h; sourceTree = "<group>"; };
+		6D938AD2D6C532D0419407EF09626DBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BA438454DE649834508B958E15D469 /* Obb3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Obb3D.h; sourceTree = "<group>"; };
+		71F687D34AE69A99F69ACF1F5FE19C41 /* DeviceTrackable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceTrackable.h; sourceTree = "<group>"; };
+		74EE37C3B6BF535A8F7C2CF3569419D9 /* Pods-Vuforia_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vuforia_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		78FD845180621148BB177A4069DA8F23 /* ObjectTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjectTarget.h; sourceTree = "<group>"; };
+		7D528017BBB80A61F1EC2916C6BF97FC /* TextTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TextTracker.h; sourceTree = "<group>"; };
+		7FC26F745E5287A0BCD1FFBDAE29FAFB /* VideoBackgroundTextureInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundTextureInfo.h; sourceTree = "<group>"; };
+		81063185C4FDE26C50F8982D841645F6 /* Renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		8581E39FB84B740E4264EBD1E3657E56 /* CustomViewerParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomViewerParameters.h; sourceTree = "<group>"; };
+		86C7B167D27331A61B456F8493744443 /* Obb2D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Obb2D.h; sourceTree = "<group>"; };
+		87C7A4EE89402128EDB2A52879CC265F /* VideoMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoMode.h; sourceTree = "<group>"; };
+		87ED943006795EA1E94DCA0EDC13523A /* Rectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		900E46ED86B4C7D64B9CE28BA8F930B8 /* ObjectTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjectTracker.h; sourceTree = "<group>"; };
+		902ED7D8CEAA82C1C027CDEB6CA539CB /* Marker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D6EDD6125A64067D26DBD849DA7AC72 /* MarkerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MarkerResult.h; sourceTree = "<group>"; };
+		9D911FE6C1D209677C3D976B110EAAD5 /* ReconstructionFromTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReconstructionFromTarget.h; sourceTree = "<group>"; };
+		9F5B25659755D1CE47C5CD4266400DF7 /* EyewearUserCalibrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EyewearUserCalibrator.h; sourceTree = "<group>"; };
+		A12118D181A744F855A23647CBAEE9C7 /* GLRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLRenderer.h; sourceTree = "<group>"; };
+		A44480B28B88EF29FC03247A344446B2 /* Pods-Vuforia_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vuforia_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4A727979840F6EE60BA9D4397E3B002 /* Pods-Vuforia_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vuforia_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6BADEB0BDAD174743D33B0748671D94 /* Trackable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Trackable.h; sourceTree = "<group>"; };
+		A846A08CAAECD4B1C3E51A52758A990A /* VirtualButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VirtualButton.h; sourceTree = "<group>"; };
+		AAC433A7936AF22B8C9024D7324A1BB3 /* Pods_Vuforia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Vuforia_Example.framework; path = "Pods-Vuforia_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB02961497F35403F3BB4FE7582297BB /* Pods-Vuforia_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vuforia_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB0AC4977F090008DD1DAEE9BDA0F50F /* Pods-Vuforia_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vuforia_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AC0A247875F931EA34F9B4E2A65F89B0 /* Pods-Vuforia_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vuforia_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF72D8AB871ED1655144B03BC6CFB594 /* Image.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		B0755F1EA10CE6372E8B3FC4D9D22BD2 /* State.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		B12D8C29FC7212975CA8449CE7324622 /* ViewList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewList.h; sourceTree = "<group>"; };
+		B1EC1364C3CB7DBB6CF377C046D8D90C /* EyewearCalibrationProfileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EyewearCalibrationProfileManager.h; sourceTree = "<group>"; };
+		B4134822BCF6FBF5E5E5891148642FAD /* Pods-Vuforia_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vuforia_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B495A877B2CC58B9FCA74207172A7E91 /* Pods-Vuforia_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vuforia_Tests-resources.sh"; sourceTree = "<group>"; };
+		B59E2F7A8207AD697F5DF8EE9C781A92 /* PropResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PropResult.h; sourceTree = "<group>"; };
+		BA2FFCD8DA1CDB9F482DC27D200BA29B /* Type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		BCCA8B16CDA044A3C1686523000BB73F /* ViewerParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewerParameters.h; sourceTree = "<group>"; };
+		C00E82B550698EBE0637026658748162 /* Box3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Box3D.h; sourceTree = "<group>"; };
+		C686FE33B1F51CEAA8D54F736740EB12 /* CylinderTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CylinderTargetResult.h; sourceTree = "<group>"; };
+		CE120F0F77F0E1D28A1E29F5B058D752 /* SurfaceResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SurfaceResult.h; sourceTree = "<group>"; };
+		D73B485C7C0D44801306C5B15F40CBD6 /* Pods-Vuforia_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vuforia_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BCDD6B7BC793C19C9E650BD5706C8C /* MetalRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MetalRenderer.h; sourceTree = "<group>"; };
+		DA04A977CDA5DE401530F4F2A275E0D1 /* System.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		DE47230A6AB1E28B6C52BCA7DF123361 /* ImageTargetResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageTargetResult.h; sourceTree = "<group>"; };
+		DF911766ACE9ADE3B70107F54AD0558B /* VideoBackgroundConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundConfig.h; sourceTree = "<group>"; };
+		E8BE98647B553760E03264180850B6C5 /* TrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TrackerManager.h; sourceTree = "<group>"; };
+		EE24C47848F84DE75E2B9647E68F546E /* RotationalDeviceTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RotationalDeviceTracker.h; sourceTree = "<group>"; };
+		EE2AECA71D47F1223FA67F7AE5651C6C /* StateUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StateUpdater.h; sourceTree = "<group>"; };
+		EFEF46C2A2E058A06A76EFE1C45D4723 /* WordResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WordResult.h; sourceTree = "<group>"; };
+		F024E84227DB377E594C171047F90310 /* NonCopyable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NonCopyable.h; sourceTree = "<group>"; };
+		F11F5F0A9FEEFF9E594FA0538CDC4896 /* UpdateCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpdateCallback.h; sourceTree = "<group>"; };
+		F31AA6596C447D6B5790D3A395C428EE /* Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		F8BE29EBF9812AA98F46513618B3ABC4 /* Prop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Prop.h; sourceTree = "<group>"; };
+		FAA6F7EA8E33C2C1D361759ED6DC872E /* Pods-Vuforia_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vuforia_Example-dummy.m"; sourceTree = "<group>"; };
+		FC4486B38DE6EF69CCB378F3361704AB /* Tracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		FC79A25FAFB220F5C429ECCAFE1B10CD /* HeadTransformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HeadTransformModel.h; sourceTree = "<group>"; };
+		FC7A7C8477BC18F347FFCF74B6F71DFB /* EyewearCalibrationReading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EyewearCalibrationReading.h; sourceTree = "<group>"; };
+		FF01D10BDD2CE7C52EB2F38A939074D2 /* ImageTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageTarget.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FEDC0BBF1BBC2552632464179D30BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2509EB6B2E355C1D8E39502A509F7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A7048377BEBB4739E81DFB174F10F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7061140AC7BE188C8EBF128D10061325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A3B1BB445F3947F392FCEA4EC2581D /* Vuforia */ = {
+			isa = PBXGroup;
+			children = (
+				1C2C0823AF45C4C5002B86D6B9A6A73E /* Area.h */,
+				C00E82B550698EBE0637026658748162 /* Box3D.h */,
+				10B358097CB3F27FE2FDAB60DCE4912A /* CameraCalibration.h */,
+				34365460F432ED0C9C9027BD36D7B613 /* CameraDevice.h */,
+				8581E39FB84B740E4264EBD1E3657E56 /* CustomViewerParameters.h */,
+				14DDCB83C6EB2A025BF58A85C75DD9A6 /* CylinderTarget.h */,
+				C686FE33B1F51CEAA8D54F736740EB12 /* CylinderTargetResult.h */,
+				04D7CB3537C19D9C27ED29F9CC642B0B /* DataSet.h */,
+				35723BC955CEA328418818D7E735E80E /* Device.h */,
+				71F687D34AE69A99F69ACF1F5FE19C41 /* DeviceTrackable.h */,
+				402C441F525D5BFBAC4AC1B73F7FC890 /* DeviceTrackableResult.h */,
+				571D66B6F9FA638E3E6F6E9116208FAE /* DeviceTracker.h */,
+				53C5B4B9414E348D7522F6FF830A128A /* EyeID.h */,
+				B1EC1364C3CB7DBB6CF377C046D8D90C /* EyewearCalibrationProfileManager.h */,
+				FC7A7C8477BC18F347FFCF74B6F71DFB /* EyewearCalibrationReading.h */,
+				311A6CFFB7BF1927407E41481D0CF0AA /* EyewearDevice.h */,
+				9F5B25659755D1CE47C5CD4266400DF7 /* EyewearUserCalibrator.h */,
+				16113FE9444AD52B34D6774F89450F30 /* Frame.h */,
+				A12118D181A744F855A23647CBAEE9C7 /* GLRenderer.h */,
+				4E475EAF708502941C07C7C2C6E3090A /* HandheldTransformModel.h */,
+				FC79A25FAFB220F5C429ECCAFE1B10CD /* HeadTransformModel.h */,
+				AF72D8AB871ED1655144B03BC6CFB594 /* Image.h */,
+				FF01D10BDD2CE7C52EB2F38A939074D2 /* ImageTarget.h */,
+				5134D9F87DCCFCE0C7FAB107831E98BD /* ImageTargetBuilder.h */,
+				DE47230A6AB1E28B6C52BCA7DF123361 /* ImageTargetResult.h */,
+				902ED7D8CEAA82C1C027CDEB6CA539CB /* Marker.h */,
+				9D6EDD6125A64067D26DBD849DA7AC72 /* MarkerResult.h */,
+				47A9C658A5AF73EB079F80F2E09986BC /* MarkerTracker.h */,
+				62116BCEE0F5B62B15D0D0F052808059 /* Matrices.h */,
+				631242DB3F29ECD877B2332D694C10C6 /* Mesh.h */,
+				D8BCDD6B7BC793C19C9E650BD5706C8C /* MetalRenderer.h */,
+				0B471D57270CFD1FCB0E0AC371E34587 /* MultiTarget.h */,
+				07B2689E475BAF15942E3A2331B032BD /* MultiTargetResult.h */,
+				F024E84227DB377E594C171047F90310 /* NonCopyable.h */,
+				86C7B167D27331A61B456F8493744443 /* Obb2D.h */,
+				71BA438454DE649834508B958E15D469 /* Obb3D.h */,
+				78FD845180621148BB177A4069DA8F23 /* ObjectTarget.h */,
+				4F5FCB6679738FA11FCED838FD828C8D /* ObjectTargetResult.h */,
+				900E46ED86B4C7D64B9CE28BA8F930B8 /* ObjectTracker.h */,
+				F8BE29EBF9812AA98F46513618B3ABC4 /* Prop.h */,
+				B59E2F7A8207AD697F5DF8EE9C781A92 /* PropResult.h */,
+				37B01CF60E73778E910BC7E86596D3C6 /* Reconstruction.h */,
+				9D911FE6C1D209677C3D976B110EAAD5 /* ReconstructionFromTarget.h */,
+				87ED943006795EA1E94DCA0EDC13523A /* Rectangle.h */,
+				81063185C4FDE26C50F8982D841645F6 /* Renderer.h */,
+				568C0EC5B184156ED3A43C4C84F09ECC /* RenderingPrimitives.h */,
+				EE24C47848F84DE75E2B9647E68F546E /* RotationalDeviceTracker.h */,
+				48135E4488BCA4119D1DD9BB1ABD7458 /* SmartTerrainBuilder.h */,
+				52459653C7A50ED8761E2639D426F54F /* SmartTerrainTrackable.h */,
+				6819947143F9A0466A475AB5BBE17FC9 /* SmartTerrainTracker.h */,
+				B0755F1EA10CE6372E8B3FC4D9D22BD2 /* State.h */,
+				EE2AECA71D47F1223FA67F7AE5651C6C /* StateUpdater.h */,
+				0351945B9BBD46FA1D8870C9AC4E6E23 /* Surface.h */,
+				CE120F0F77F0E1D28A1E29F5B058D752 /* SurfaceResult.h */,
+				DA04A977CDA5DE401530F4F2A275E0D1 /* System.h */,
+				201BF292E579ADDE294081D05057184C /* TargetFinder.h */,
+				15E32F9516FE5AF0258CE7455A6C34E9 /* TargetSearchResult.h */,
+				7D528017BBB80A61F1EC2916C6BF97FC /* TextTracker.h */,
+				F31AA6596C447D6B5790D3A395C428EE /* Tool.h */,
+				A6BADEB0BDAD174743D33B0748671D94 /* Trackable.h */,
+				33B6C0F05FBEBE32622B25C2817BC6CE /* TrackableResult.h */,
+				29129DA455CF73A1A02BE94DB5C9E2BE /* TrackableSource.h */,
+				FC4486B38DE6EF69CCB378F3361704AB /* Tracker.h */,
+				E8BE98647B553760E03264180850B6C5 /* TrackerManager.h */,
+				5C8185A08C7ED719C56528FDC297DAF5 /* TransformModel.h */,
+				BA2FFCD8DA1CDB9F482DC27D200BA29B /* Type.h */,
+				56BEC846377BAD567D7E39179DBFB8D3 /* UIGLViewProtocol.h */,
+				F11F5F0A9FEEFF9E594FA0538CDC4896 /* UpdateCallback.h */,
+				24383DFB4C602BB0493AB734ABCE916D /* Vectors.h */,
+				DF911766ACE9ADE3B70107F54AD0558B /* VideoBackgroundConfig.h */,
+				7FC26F745E5287A0BCD1FFBDAE29FAFB /* VideoBackgroundTextureInfo.h */,
+				87C7A4EE89402128EDB2A52879CC265F /* VideoMode.h */,
+				5549CD716E41C9F8D397A4A4F8D4FA65 /* View.h */,
+				BCCA8B16CDA044A3C1686523000BB73F /* ViewerParameters.h */,
+				163B3D6A01F12942B4D83DCB610E8C82 /* ViewerParametersList.h */,
+				B12D8C29FC7212975CA8449CE7324622 /* ViewList.h */,
+				A846A08CAAECD4B1C3E51A52758A990A /* VirtualButton.h */,
+				266CDEA07FBFABE8DE8A4A4CA92D1D0B /* VirtualButtonResult.h */,
+				5A08F1E93D0049458FF7C904DDCB7E4E /* Vuforia.h */,
+				1004592FF8D7367454F118D8E43BE43A /* Vuforia_iOS.h */,
+				1C53B7001719418E801BCB69A5EC718E /* Word.h */,
+				2C88D04ABAA960AAF0AE5E1880E3FF96 /* WordList.h */,
+				EFEF46C2A2E058A06A76EFE1C45D4723 /* WordResult.h */,
+			);
+			name = Vuforia;
+			path = Vuforia;
+			sourceTree = "<group>";
+		};
+		463173F4230B7C1119B57B8D9D819316 /* Vuforia */ = {
+			isa = PBXGroup;
+			children = (
+				17A3B1BB445F3947F392FCEA4EC2581D /* Vuforia */,
+			);
+			name = Vuforia;
+			path = Vuforia;
+			sourceTree = "<group>";
+		};
+		5F1226A9447E2D97F9E42C6DB4CFC95E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94467AB8E5965E229446881C8E4B2A5 /* Vuforia */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5FD57C793DC3D0DFB7C512D032C96C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC433A7936AF22B8C9024D7324A1BB3 /* Pods_Vuforia_Example.framework */,
+				34545E972594AACED5E079B55D526D45 /* Pods_Vuforia_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5F1226A9447E2D97F9E42C6DB4CFC95E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5FD57C793DC3D0DFB7C512D032C96C5D /* Products */,
+				BDE70914DDEA6E9849D2053293DC60A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B1AE72A5C0AE3014AB8F524ABDC654E0 /* Pods-Vuforia_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D938AD2D6C532D0419407EF09626DBD /* Info.plist */,
+				2C78F61D290735369CD2A8F0F1908923 /* Pods-Vuforia_Tests.modulemap */,
+				AB02961497F35403F3BB4FE7582297BB /* Pods-Vuforia_Tests-acknowledgements.markdown */,
+				0E1F1A2413007822AAFF94B0CAF08491 /* Pods-Vuforia_Tests-acknowledgements.plist */,
+				17EB52FFE7E9A0B52AABA137D2AF71D2 /* Pods-Vuforia_Tests-dummy.m */,
+				5181EEF174D2C740092B4E763083FFEB /* Pods-Vuforia_Tests-frameworks.sh */,
+				B495A877B2CC58B9FCA74207172A7E91 /* Pods-Vuforia_Tests-resources.sh */,
+				B4134822BCF6FBF5E5E5891148642FAD /* Pods-Vuforia_Tests-umbrella.h */,
+				D73B485C7C0D44801306C5B15F40CBD6 /* Pods-Vuforia_Tests.debug.xcconfig */,
+				AC0A247875F931EA34F9B4E2A65F89B0 /* Pods-Vuforia_Tests.release.xcconfig */,
+			);
+			name = "Pods-Vuforia_Tests";
+			path = "Target Support Files/Pods-Vuforia_Tests";
+			sourceTree = "<group>";
+		};
+		B94467AB8E5965E229446881C8E4B2A5 /* Vuforia */ = {
+			isa = PBXGroup;
+			children = (
+				463173F4230B7C1119B57B8D9D819316 /* Vuforia */,
+			);
+			name = Vuforia;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE70914DDEA6E9849D2053293DC60A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15BB7BCA4BC0617711E3BAD7E818BF8 /* Pods-Vuforia_Example */,
+				B1AE72A5C0AE3014AB8F524ABDC654E0 /* Pods-Vuforia_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D15BB7BCA4BC0617711E3BAD7E818BF8 /* Pods-Vuforia_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6157A14B97F80FA41E794C28F7C40FB3 /* Info.plist */,
+				302013F065A0251780950F2EEBC5A312 /* Pods-Vuforia_Example.modulemap */,
+				A4A727979840F6EE60BA9D4397E3B002 /* Pods-Vuforia_Example-acknowledgements.markdown */,
+				A44480B28B88EF29FC03247A344446B2 /* Pods-Vuforia_Example-acknowledgements.plist */,
+				FAA6F7EA8E33C2C1D361759ED6DC872E /* Pods-Vuforia_Example-dummy.m */,
+				2CB7DC4A281C4DC9FEF09C90DF8B29E0 /* Pods-Vuforia_Example-frameworks.sh */,
+				3EAEC5504BE19CBE915AF73089A2BCC6 /* Pods-Vuforia_Example-resources.sh */,
+				632F87D9BB0F29EA92591C627677BF02 /* Pods-Vuforia_Example-umbrella.h */,
+				74EE37C3B6BF535A8F7C2CF3569419D9 /* Pods-Vuforia_Example.debug.xcconfig */,
+				AB0AC4977F090008DD1DAEE9BDA0F50F /* Pods-Vuforia_Example.release.xcconfig */,
+			);
+			name = "Pods-Vuforia_Example";
+			path = "Target Support Files/Pods-Vuforia_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E10DF9D80155B2D1A426242A1B149C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D37BEA0A8634B63D9F625C28CD9E7F /* Pods-Vuforia_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8DE7A1BE1BDA56E3D83A0CF45FE5E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88E2D2C9C3C9425F9208D1BC96298FA /* Pods-Vuforia_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		696C86CF2019866BE2397B078324F9B7 /* Pods-Vuforia_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401CA41E31219775123BF6B4AB58C27E /* Build configuration list for PBXNativeTarget "Pods-Vuforia_Example" */;
+			buildPhases = (
+				8D9E9ED494D89567E2C143B70DC4087B /* Sources */,
+				80A7048377BEBB4739E81DFB174F10F7 /* Frameworks */,
+				2E10DF9D80155B2D1A426242A1B149C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Vuforia_Example";
+			productName = "Pods-Vuforia_Example";
+			productReference = AAC433A7936AF22B8C9024D7324A1BB3 /* Pods_Vuforia_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A4D4E95CC14FF1ECCD0AA307A845AE9 /* Pods-Vuforia_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CD8E31893892695F09BA040729A1C3 /* Build configuration list for PBXNativeTarget "Pods-Vuforia_Tests" */;
+			buildPhases = (
+				0AAF2611025F4CEFCA1BB6EB1E31636D /* Sources */,
+				7FEDC0BBF1BBC2552632464179D30BC0 /* Frameworks */,
+				DF8DE7A1BE1BDA56E3D83A0CF45FE5E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Vuforia_Tests";
+			productName = "Pods-Vuforia_Tests";
+			productReference = 34545E972594AACED5E079B55D526D45 /* Pods_Vuforia_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5FD57C793DC3D0DFB7C512D032C96C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696C86CF2019866BE2397B078324F9B7 /* Pods-Vuforia_Example */,
+				8A4D4E95CC14FF1ECCD0AA307A845AE9 /* Pods-Vuforia_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAF2611025F4CEFCA1BB6EB1E31636D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCB04F5D5D2F7133EEB25F413A6A15D /* Pods-Vuforia_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D9E9ED494D89567E2C143B70DC4087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FE5042EDFC39CB64B9DF70EBC2AF7C /* Pods-Vuforia_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F7DC304E6D751CD2B3F26B95F54EA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73B485C7C0D44801306C5B15F40CBD6 /* Pods-Vuforia_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Vuforia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vuforia_Tests/Pods-Vuforia_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vuforia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AB980970215D1A0AA40A040841694DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0AC4977F090008DD1DAEE9BDA0F50F /* Pods-Vuforia_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Vuforia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vuforia_Example/Pods-Vuforia_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vuforia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA0A1CBD23B8B75313D12519A0C3E12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC0A247875F931EA34F9B4E2A65F89B0 /* Pods-Vuforia_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Vuforia_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vuforia_Tests/Pods-Vuforia_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vuforia_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD99B8DCAF85F2E11422DBCB7F5A6296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EE37C3B6BF535A8F7C2CF3569419D9 /* Pods-Vuforia_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Vuforia_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Vuforia_Example/Pods-Vuforia_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Vuforia_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401CA41E31219775123BF6B4AB58C27E /* Build configuration list for PBXNativeTarget "Pods-Vuforia_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD99B8DCAF85F2E11422DBCB7F5A6296 /* Debug */,
+				9AB980970215D1A0AA40A040841694DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CD8E31893892695F09BA040729A1C3 /* Build configuration list for PBXNativeTarget "Pods-Vuforia_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7DC304E6D751CD2B3F26B95F54EA40 /* Debug */,
+				BA0A1CBD23B8B75313D12519A0C3E12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

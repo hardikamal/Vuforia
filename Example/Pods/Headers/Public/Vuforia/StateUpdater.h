@@ -1,0 +1,1 @@
+../../../../../Vuforia/Vuforia/StateUpdater.h

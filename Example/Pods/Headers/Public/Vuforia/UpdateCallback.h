@@ -1,0 +1,1 @@
+../../../../../Vuforia/Vuforia/UpdateCallback.h

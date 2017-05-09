@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Vuforia'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Vuforia.'
+  s.version          = '0.1.1'
+  s.summary          = 'Ar technology of cmall'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Cmall CmallCmallCmallCmallCmallCmallCmallCmallCmall'
 
   s.homepage         = 'https://github.com/momo605654602@gmail.com/Vuforia'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,7 +28,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Vuforia/Classes/**/*'
+  s.source_files = 'Vuforia/Vuforia/*'
+
+  s.vendored_libraries = 'iSmartPhoto/Binary/*.a'
   
   # s.resource_bundles = {
   #   'Vuforia' => ['Vuforia/Assets/*.png']
