@@ -1,1 +1,0 @@
-../../../../../Vuforia/Vuforia/Reconstruction.h

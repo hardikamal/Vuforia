@@ -1,0 +1,1 @@
+../../../../../Vuforia/Vuforia/Frame.h

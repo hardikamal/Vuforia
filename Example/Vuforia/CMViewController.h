@@ -6,7 +6,7 @@
 //  Copyright (c) 2017 momo605654602@gmail.com. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface CMViewController : UIViewController
 
